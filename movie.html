@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>The Books App</title>
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script src="js/jquery.mobile-1.4.5.js" type="text/javascript"></script>
+</head>
+<body>
+	<div data-role="page" data-theme="a" id="book">
+		<div data-role="header" data-theme="b">
+			<h1>Book Listing</h1>
+			<a href="index.html" class="ui-btn-inline">Back</a>
+		</div>
+		<!-- Main Content -->
+		<div data-role="main">
+			<!-- Book Top -->
+			<div id="bookTop"></div>
+			<br><br>
+			<!-- Detail Book -->
+			<ul id="bookDetails" data-role="listview" data-theme="b"></ul>
+		</div>
+		<div style="text-align: center;" data-role="footer">
+			<p>BooksFinderApp &copy; 2017 - Dev By Undlabs</p>
+		</div>
+	</div>
+
+	<script src="js/main.js"></script>
+</body>
+</html>
