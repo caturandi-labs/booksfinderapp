@@ -69,9 +69,11 @@ function getBook(bookId){
 
 		let str = '';
 		for(i=0; i<book.volumeInfo.authors.length; i++){
-			str += book.volumeInfo.authors[i] + ',';
-			if(book.volumeInfo.authors == book.volumeInfo.authors.length-1){
+			
+			if(book.volumeInfo.authors[i] == book.volumeInfo.authors[book.volumeInfo.authors.length-1]){
 				str += book.volumeInfo.authors[i];
+			}else{
+				str += book.volumeInfo.authors[i] + ',';
 			}
 		}	
 
