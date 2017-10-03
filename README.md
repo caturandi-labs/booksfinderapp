@@ -4,3 +4,7 @@
 >dapat dikombinasikan dengan Cordova untuk membuatnya menjadi aplikasi mobile.
 
 
+## Screenshoots
+![alt text](https://github.com/caturandi-labs/booksfinderapp/blob/master/ss/1.PNG "SS 1")
+![alt text](https://github.com/caturandi-labs/booksfinderapp/blob/master/ss/2.PNG "SS 2")
+
